@@ -1,114 +1,103 @@
-*
-{
+* {
     -webkit-transition: all 1s;
     transition: all 1s;
 }
-body
-{
+
+body {
     font-family: 'Montserrat', sans-serif;
 }
-.navbar-dark .logo
-{
+
+.navbar-dark .logo {
     color: #fed136;
     font-family: 'Kaushan Script', cursive;
     font-size: 28px;
     font-weight: 500;
 }
-.navbar-dark .logo:hover{
- color: #fed136;
+
+.navbar-dark .logo:hover {
+    color: #fed136;
 }
-.navbar-dark .navbar-nav .nav-link 
-{
+
+.navbar-dark .navbar-nav .nav-link {
     color: #fff;
     letter-spacing: 1px;
     font-size: 14px;
     padding: 14px 15px;
     font-weight: 500;
-    
 }
-.navbar-dark .navbar-nav .nav-link:hover
-{
+
+.navbar-dark .navbar-nav .nav-link:hover {
     color: #fed136;
 }
-.custom-toggler
-{
- font-size: 16px;
+
+.custom-toggler {
+    font-size: 16px;
 }
 
-
-.home
-{
-    background-image: url(../img/header-bg.jpg);
+.home {
+    background-image: url(../img/wallpaper-208387.jpg);
     background-size: cover;
-    background-position:center center;
+    background-position: center center;
     height: 700px;
 }
-.info p
-{
+
+.info p {
     font-size: 40px;
 }
-.info h1
-{
+
+.info h1 {
     font-size: 75px;
 }
-@media (max-width:991px)
-{
-    .navbar-dark .logo
-    {
+
+@media (max-width:991px) {
+    .navbar-dark .logo {
         font-size: 20px;
     }
-    .info p
-    {
+    .info p {
         font-size: 20px;
     }
-    .info h1
-    {
+    .info h1 {
         font-size: 30px;
     }
 }
-.advisor-info h2
-{
+
+.advisor-info h2 {
     color: #002147;
 }
 
-.sub-advisor
-{
+.sub-advisor {
     position: relative;
 }
 
-.overlay
-{
+.overlay {
     position: absolute;
     width: 100%;
     height: 100%;
-    bottom:100%;
+    bottom: 100%;
     left: 0;
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
     background-color: rgba(0, 33, 71, 0.7);
-  
     -webkit-transition: all 0.7s ease 0.35s;
-  
     transition: all 0.7s ease 0.35s;
 }
-.sub-advisor:hover .overlay
-{
+
+.sub-advisor:hover .overlay {
     bottom: 0;
 }
-.sub-advisor-info
-{
+
+.sub-advisor-info {
     position: absolute;
     bottom: 10px;
     left: 0;
     width: 100%;
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
-     -webkit-transition: all 0.8s ease 0.35s;
-     transition: all 0.8s ease 0.35s;
-    
+    -webkit-transition: all 0.8s ease 0.35s;
+    transition: all 0.8s ease 0.35s;
 }
-.sub-advisor:hover .sub-advisor-info
-{
+
+.sub-advisor:hover .sub-advisor-info {
     -webkit-transition-delay: 0.5s;
     transition-delay: 0.5s;
     bottom: -100%;
